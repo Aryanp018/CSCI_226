@@ -1,16 +1,14 @@
-<!ELEMENT news (title, signal+, gaps, risk, stewardship, datadomain)>
+<!ELEMENT article (title, summary, category, publishTime, company, marketData, source, sentiment)>
 <!ELEMENT title (#PCDATA)>
-
-<!ELEMENT signal (name, domain, unit?, freshness)>
+<!ELEMENT summary (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT publishTime (#PCDATA)>
+<!ELEMENT company (name, ticker)>
 <!ELEMENT name (#PCDATA)>
-<!ELEMENT domain (#PCDATA)>
-<!ELEMENT unit (#PCDATA)>
-<!ELEMENT freshness (#PCDATA)>
-
-<!ELEMENT gaps (#PCDATA)>
-<!ELEMENT risk (#PCDATA)>
-<!ELEMENT stewardship (#PCDATA)>
-
-<!ELEMENT datadomain (primary, adjacent*)>
-<!ELEMENT primary (#PCDATA)>
-<!ELEMENT adjacent (#PCDATA)>
+<!ELEMENT ticker (#PCDATA)>
+<!ELEMENT marketData (stockPrice, changePercent)>
+<!ELEMENT stockPrice (#PCDATA)>
+<!ELEMENT changePercent (#PCDATA)>
+<!ELEMENT source (name, credibility)>
+<!ELEMENT credibility (#PCDATA)>
+<!ELEMENT sentiment (#PCDATA)>
