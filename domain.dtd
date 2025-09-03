@@ -1,0 +1,16 @@
+<!ELEMENT news (title, signal+, gaps, risk, stewardship, datadomain)>
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT signal (name, domain, unit?, freshness)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT domain (#PCDATA)>
+<!ELEMENT unit (#PCDATA)>
+<!ELEMENT freshness (#PCDATA)>
+
+<!ELEMENT gaps (#PCDATA)>
+<!ELEMENT risk (#PCDATA)>
+<!ELEMENT stewardship (#PCDATA)>
+
+<!ELEMENT datadomain (primary, adjacent*)>
+<!ELEMENT primary (#PCDATA)>
+<!ELEMENT adjacent (#PCDATA)>
