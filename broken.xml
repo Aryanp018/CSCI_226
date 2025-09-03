@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article SYSTEM "domain.dtd">
+<article>
+  <title>Apple Reports Quarterly Earnings Beat Expectations</title>
+  <category>Finance</category>
+  <publishTime>2025-09-01T14:30:00Z</publishTime>
+  <company>
+    <name>Apple Inc.</name>
+    <ticker>AAPL</ticker>
+  </company>
+  <marketData>
+    <stockPrice>225.50</stockPrice>
+    <changePercent>+2.4%</changePercent>
+  </marketData>
+  <source>
+    <name>Wall Street Journal</name>
+    <credibility>high</credibility>
+  </source>
+  <sentiment>positive</sentiment>
+</article>
